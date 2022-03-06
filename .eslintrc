@@ -1,0 +1,67 @@
+{
+	"env": {
+		"browser": true,
+		"es2021": true
+	},
+	"settings": {
+		"react": {
+			"version": "detect"
+		}
+	},
+	"extends": [
+		"plugin:react/recommended",
+		"airbnb",
+		"airbnb-typescript",
+		"plugin:@typescript-eslint/recommended",
+		"plugin:react-hooks/recommended",
+		"plugin:prettier/recommended"
+	],
+	"parser": "@typescript-eslint/parser",
+	"parserOptions": {
+		"ecmaFeatures": {
+			"jsx": true
+		},
+		"ecmaVersion": 2021,
+		"sourceType": "module",
+		"project": "./tsconfig.json"
+	},
+	"plugins": [
+		"react",
+		"@typescript-eslint",
+		"import-helpers",
+		"prettier"
+	],
+	"rules": {
+		"arrow-body-style": "off",
+		"prefer-arrow-callback": "off",
+		"react/react-in-jsx-scope": "off",
+		"react/jsx-props-no-spreading": "off",
+		"react/require-default-props": "off",
+		"import-helpers/order-imports": [
+			"error",
+			{
+				"newlinesBetween": "always",
+				"groups": [
+					"/react$|react-dom/",
+					"/^styled-components/",
+					"module",
+					"/components/",
+					"/utils/",
+					"/assets/",
+					"/^styles/",
+					[
+						"parent",
+						"sibling",
+						"index"
+					]
+				],
+				"alphabetize": {
+					"order": "asc",
+					"ignoreCase": true
+				}
+			}
+		],
+		"prettier/prettier": "error",
+		"import/prefer-default-export": "off"
+	}
+}
