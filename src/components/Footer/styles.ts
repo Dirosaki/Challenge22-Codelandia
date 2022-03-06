@@ -29,5 +29,38 @@ export const Footer = styled.footer`
 				}
 			}
 		}
+
+		@media (max-width: 35rem) {
+			div {
+				gap: 2rem;
+
+				span {
+					font-size: 0.875rem;
+				}
+			}
+		}
+
+		@media (max-width: 27.5rem) {
+			flex-direction: column;
+			gap: 1.25rem;
+
+			div {
+				gap: 2rem;
+
+				span {
+					font-size: 1rem;
+				}
+			}
+		}
+
+		@media (max-width: 25rem) {
+			div {
+				gap: 1rem;
+
+				span {
+					font-size: 0.875rem;
+				}
+			}
+		}
 	`}
 `;

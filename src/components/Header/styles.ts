@@ -10,7 +10,7 @@ export const Header = styled.header`
 		div {
 			display: flex;
 			align-items: center;
-			gap: 62px;
+			gap: 3.875rem;
 		}
 
 		a {
@@ -19,6 +19,34 @@ export const Header = styled.header`
 			text-transform: uppercase;
 			letter-spacing: 0.01em;
 			color: ${theme.colors.light};
+		}
+
+		@media (max-width: 78.125rem) {
+			div {
+				flex-direction: column-reverse;
+				gap: 2rem;
+			}
+		}
+
+		@media (max-width: 71.875rem) {
+			flex-direction: column;
+			gap: 2rem;
+		}
+
+		@media (max-width: 64rem) {
+			flex-direction: row;
+
+			div {
+				flex-direction: row;
+			}
+		}
+
+		@media (max-width: 55rem) {
+			flex-direction: column;
+
+			div {
+				flex-direction: column-reverse;
+			}
 		}
 	`}
 `;

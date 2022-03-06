@@ -9,6 +9,9 @@ type ImageProps = {
 export const Card = styled.div`
 	${({ theme }) => css`
 		padding: 1.5rem;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
 		background: ${theme.colors.dark200};
 		border-radius: 0.5rem;
 		border: 0.0625rem solid ${theme.colors.purple};
@@ -22,7 +25,7 @@ export const Card = styled.div`
 		}
 
 		p {
-			font-size: 18px;
+			font-size: 1.125rem;
 			font-family: ${theme.fonts.DMSans};
 			color: ${theme.colors.gray};
 		}
@@ -36,15 +39,8 @@ export const Image = styled.div<ImageProps>`
 		background: url(${imageBackground || illustration}) no-repeat;
 		background-color: ${theme.colors.dark};
 		background-position: ${imageBackground ? 'top' : 'center'};
-		background-size: ${imageBackground ? '100%' : 'initial'};
+		background-size: ${imageBackground ? 'cover' : 'initial'};
 		border-radius: 0.25rem;
-		transition: background-size 0.15s ease-out;
-
-		@media (hover: hover) {
-			&:hover {
-				background-size: ${imageBackground ? '110%' : 'initial'};
-			}
-		}
 	`}
 `;
 
@@ -52,4 +48,8 @@ export const ButtonWrapper = styled.div`
 	margin-top: 2rem;
 	display: flex;
 	gap: 1.5rem;
+
+	@media (max-width: 82.5rem) {
+		flex-direction: column;
+	}
 `;

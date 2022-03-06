@@ -46,5 +46,9 @@ export const Button = styled.a<ButtonProps>`
 				}
 			}
 		`}
+
+		@media (max-width: 82.5rem) {
+			width: 100%;
+		}
 	`}
 `;
