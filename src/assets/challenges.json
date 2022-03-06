@@ -1,0 +1,74 @@
+[
+	{
+		"id": 1,
+		"challenge": 1,
+		"author": "Vinicius Alba",
+		"paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec felis ligula, accumsan nec cursus in, eleifend sit amet dui.",
+		"background": "https://user-images.githubusercontent.com/53067252/156900969-8d6d2e6d-a530-4904-8da0-40529119696a.jpg",
+		"demo": "https://codelandia-challenges-challenge01-blog.vercel.app/",
+		"github": "https://github.com/ViniciusAlba/codelandia-challenges/tree/main/challenge01-blog"
+	},
+	{
+		"id": 2,
+		"challenge": 21,
+		"author": "Henrick Kaun",
+		"paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec felis ligula, accumsan nec cursus in, eleifend sit amet dui.",
+		"background": "https://camo.githubusercontent.com/df5a3be6888c53862e83e5a356038aa149e2e2959716871727c60712039e98df/68747470733a2f2f63646e2e646973636f72646170702e636f6d2f6174746163686d656e74732f3839373236323831373737363930323136382f3934383237393531343337373632313534342f73637265656e78626f782e706e67",
+		"demo": "https://projetoxbox.netlify.app/",
+		"github": "https://github.com/henrickkauan/desafio21_iuricode_xbox"
+	},
+	{
+		"id": 3,
+		"challenge": 2,
+		"author": "Gabriel Dias",
+		"paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec felis ligula, accumsan nec cursus in, eleifend sit amet dui.",
+		"background": "https://github.com/gabrieldiasdev/JordanShoes/raw/main/img/img-index.png",
+		"demo": "https://gabrieldiasdev.github.io/JordanShoes/",
+		"github": "https://github.com/gabrieldiasdev/JordanShoes"
+	},
+	{
+		"id": 3,
+		"challenge": 3,
+		"author": "Juslene Lobeu",
+		"paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec felis ligula, accumsan nec cursus in, eleifend sit amet dui.",
+		"background": "https://raw.githubusercontent.com/juslenelobeu/onepage-codelandia/master/assets/images/screenshot.jpg",
+		"demo": "https://juslenelobeu.github.io/onepage-codelandia/",
+		"github": "https://github.com/juslenelobeu/onepage-codelandia"
+	},
+	{
+		"id": 3,
+		"challenge": 4,
+		"author": "Renan Soares",
+		"paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec felis ligula, accumsan nec cursus in, eleifend sit amet dui.",
+		"background": "https://camo.githubusercontent.com/d573713606dbc516bb8ba125701dcb330de907c7a60ff6a04ef400667574588c/68747470733a2f2f696b2e696d6167656b69742e696f2f7a71787968367533796c7a2f4c6f67696e2f4c6f67696e5f2d4c4a4e66786f5f5a2e6a70673f696b2d73646b2d76657273696f6e3d6a6176617363726970742d312e342e33267570646174656441743d31363434333332343339353335",
+		"demo": "https://renans80.github.io/login/",
+		"github": "https://github.com/RenanS80/login"
+	},
+	{
+		"id": 3,
+		"challenge": 5,
+		"author": "Gabriel Azevedo",
+		"paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec felis ligula, accumsan nec cursus in, eleifend sit amet dui.",
+		"background": "https://gabazevdo.github.io/codelandia/images/print_chihiro.png",
+		"demo": "https://gabazevdo.github.io/codelandia/desafios/desafio_05/index.html",
+		"github": "https://github.com/gabazevdo/codelandia/tree/main/desafios/desafio_05"
+	},
+	{
+		"id": 3,
+		"challenge": 6,
+		"author": "Gabriel Azevedo",
+		"paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec felis ligula, accumsan nec cursus in, eleifend sit amet dui.",
+		"background": "",
+		"demo": "https://gabazevdo.github.io/codelandia/desafios/desafio_06/index.html",
+		"github": "https://github.com/gabazevdo/codelandia/tree/main/desafios/desafio_06"
+	},
+	{
+		"id": 3,
+		"challenge": 7,
+		"author": "Gabriel Azevedo",
+		"paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec felis ligula, accumsan nec cursus in, eleifend sit amet dui.",
+		"background": "https://github.com/Jeffbeu/Desafio-7---Codelandia/raw/master/images/Screenshot_2.png",
+		"demo": "https://jeffbeu.github.io/Desafio-7---Codelandia/",
+		"github": "https://github.com/Jeffbeu/Desafio-7---Codelandia"
+	}
+]

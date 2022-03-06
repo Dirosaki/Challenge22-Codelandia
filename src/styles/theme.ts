@@ -11,6 +11,7 @@ const theme: DefaultTheme = {
 	},
 	fonts: {
 		DMSans: "'DM Sans', sans-serif",
+		IBMPlexMono: "'IBM Plex Mono', monospace",
 	},
 };
 

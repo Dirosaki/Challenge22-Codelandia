@@ -12,6 +12,7 @@ declare module 'styled-components' {
 		};
 		fonts: {
 			DMSans: string;
+			IBMPlexMono: string;
 		};
 	}
 }
